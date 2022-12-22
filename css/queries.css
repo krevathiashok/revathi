@@ -1,0 +1,189 @@
+/* REM and EM do not depends on html font size in media quries..
+instead 1rem=1em=16px */
+/* ****************************************
+************BELOW 1150PX(smaller desktops)s**************
+**************************************** */
+
+@media (max-width: 72em) {
+  .hero {
+    max-width: 120rem;
+  }
+
+  .service-des {
+    font-weight: 200;
+    font-size: 1.3rem;
+    line-height: 2.8rem;
+    text-align: center;
+    width: 210px;
+    height: 114px;
+    padding: 0 2rem;
+  }
+  .service-feature {
+    padding-bottom: 2rem;
+  }
+  .service-grid {
+    gap: 2rem;
+  }
+}
+
+/* ****************************************
+************BELOW 1008PX(smaller desktops)s**************
+**************************************** */
+
+@media (max-width: 63em) {
+  .btn,
+  .btn:link,
+  .btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1.8rem 3.2rem;
+  }
+  .btn-main {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2.8rem;
+    padding-bottom: 2.4rem;
+  }
+  .btn_text {
+    color: #fff;
+    font-size: 1.6rem;
+  }
+
+  .hero-text-box {
+    margin-top: 4rem;
+    gap: 2rem;
+  }
+  .hero-text {
+    line-height: 4rem;
+    font-size: 2.4rem;
+  }
+  .hero-name {
+    font-weight: 400;
+    font-size: 3rem;
+    color: #fd2a01;
+  }
+  .hero-desig {
+    font-weight: 400;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+  }
+  .hero-description {
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 3.2rem;
+  }
+
+  .footer-text {
+    font-size: 1.5rem;
+  }
+}
+/* ****************************************
+************BELOW 967PX(smaller desktops)s**************
+**************************************** */
+
+@media (max-width: 60em) {
+  .grid {
+    display: grid;
+    row-gap: 7.2rem;
+    column-gap: 4.8rem;
+    margin-bottom: 9.6rem;
+  }
+
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* ****************************************
+************BELOW 848PX(smaller desktops)s**************
+**************************************** */
+@media (max-width: 60em) {
+  .grid {
+    row-gap: 7.2rem;
+    column-gap: 4.8rem;
+  }
+  .hero-text-box {
+    margin-left: 3rem;
+  }
+  .grid1 {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-arr {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .form-sec {
+    padding: 0 3.2rem;
+    background-color: #ede5e4;
+    margin-top: 2.4rem;
+  }
+}
+/* ****************************************
+************BELOW 736PX(smaller desktops)s**************
+**************************************** */
+@media (max-width: 46em) {
+  .container {
+  }
+  .grid1 {
+    grid-template-columns: 1fr;
+    margin-left: 2rem;
+  }
+
+  .hero {
+    margin-top: 0rem;
+  }
+  .hero-img {
+    width: 100%;
+  }
+  .pject-image-set {
+    width: 100%;
+  }
+}
+/* ****************************************
+************BELOW 560PX(smaller desktops)s**************
+**************************************** */
+@media (max-width: 35em) {
+  .btn-main {
+    padding-top: 2.5rem;
+    padding-bottom: 0;
+  }
+  .btn,
+  .btn:link,
+  .btn:visited {
+    font-size: 2rem;
+    padding: 2rem 3rem;
+  }
+  .grid-1 {
+    grid-template-columns: 1fr;
+  }
+  .form-sec {
+    padding: 0 2rem;
+  }
+}
+
+/* ****************************************
+************BELOW 464PX(smaller desktops)s**************
+**************************************** */
+@media (max-width: 29em) {
+  .hero-text-box {
+    margin-left: 1rem;
+  }
+  .grid1 {
+    grid-template-columns: 1fr;
+    margin-left: 0rem;
+  }
+  .form-sec {
+    margin: 0 auto;
+    padding: 0;
+    padding: 0 0.5rem;
+  }
+  .cta-form {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  . .pject-image-set:hover,
+  .pject-image-set:active {
+    transform: scale(1.3);
+  }
+}
