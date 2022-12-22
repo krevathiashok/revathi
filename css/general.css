@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /*font size=10px
+  10px/16px=0.62.5=62.5%
+  percentage of user's browser's Font size settings
+  */
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  overflow-x: hidden;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 240, 238, 0.42) 0%,
+    rgba(255, 237, 234, 0.31) 100%
+  );
+}
+
+/* ****************************************
+/************GENERAL REUSABLE COMPONENETS**************
+**************************************** */
+.container {
+  /* 1200px */
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+.grid {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+  margin-bottom: 9.6rem;
+}
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid--center-v {
+  align-items: center;
+}
+
+/* ****************************************
+/************buttons**************
+**************************************** */
+
+/* .btn {
+  display: inline-block;
+  padding: rem 3.5rem;
+
+  border-radius: 40px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+}*/
+.btn-main {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 3.2rem;
+  padding-bottom: 2.5rem;
+}
+.btn-link {
+  text-decoration: none;
+}
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 2rem 3rem;
+  border-radius: 4rem;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(180deg, #e9494b 0%, #d50707 52.92%, #ff060b 100%);
+  /* put transition on original state */
+  transition: all 0.3s;
+  /* only for .btn property */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  color: #fff;
+}
+.btn:hover,
+.btn:active {
+  background: linear-gradient(180deg, #e20003 0%, #ad0000 52.92%, #750406 100%);
+}
+
+.btn_text {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+/* ****************************************
+/************SMALL HELPER CLASSES**************
+**************************************** */
+/* .margin-right-sm {
+  /* margin-right: 1.6rem; !important  
+  margin-right: 1.6rem !important;
+} */

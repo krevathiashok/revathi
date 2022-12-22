@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css\style.css" />
+    <link rel="stylesheet" href="css\general.css" />
+    <link rel="stylesheet" href="css\queries.css" />
+    <link rel="icon" type="image/x-icon" href="image\favicon.png">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap");
+    </style>
+    <script defer src="js\script.js"></script>
+  </head>
+  <body>
+    <header class="header  header-top">
+      <nav class="container  btn-main">
+        <div class="btn btn-main">
+          <a href="#cta" class="btn-link"><h1 class="btn_text">Hire Me</h1></a>    
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="container grid grid--2-cols grid1">
+        <div class="hero-text-box">
+          <p class="hero-text">
+            Hai! I am <br />
+            <span class="hero-name">Revathi</span><br />
+            <span class="hero-desig"> Graphics Designer</span>
+          </p>
+          <p class="hero-description">
+            Creative graphic designer with exceptional graphic designing skills
+            and a strong focus on typography and layout. Bringing creative flair
+            and the ability to understand the latest trends to provide the
+            company with excellence in design services.
+          </p>
+          <a href="#pjt"><p class="btn">See My Work</p></a>
+          
+        </div>
+        <div class="hero-img-box">
+          <img class="hero-img" src="image\heroJIF2.gif" alt="hero-img" />
+        </div>
+      </div>
+    </section>
+    <section class="service">
+      <div class="service-section container">
+        <h2 class="heading-secondary">My Awesome Services</h2>
+        <div class="service-grid container grid grid-1 grid--4-cols">
+          <div class="service-feature">
+            <ion-icon class="service-icon" name="desktop-outline"></ion-icon>
+            <h3 class="service-tittle">UI/UX Design</h3>
+            <p class="service-des">
+              Creative and more Professional design that attract the users
+            </p>
+          </div>
+          <div class="service-feature">
+            <ion-icon class="service-icon" name="logo-html5"></ion-icon>
+            <h3 class="service-tittle">Web Development</h3>
+            <p class="service-des">
+              Front End Web Development Using HTML and CSS
+            </p>
+          </div>
+          <div class="service-feature">
+            <ion-icon class="service-icon" name="images-outline"></ion-icon>
+            <h3 class="service-tittle">Poster Design</h3>
+            <p class="service-des">
+              Attractive Social Media Poster design that attract more customers
+              to the Business
+            </p>
+          </div>
+          <div class="service-feature">
+            <ion-icon
+              class="service-icon"
+              name="color-palette-outline"
+            ></ion-icon>
+            <h3 class="service-tittle">Logo Design</h3>
+            <p class="service-des">
+              More Innovative Logo that Describes Goal of any Organization
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="project" id="pjt">
+      <div class="project-section container">
+        <h2 class="heading-secondary">Recent Projects</h2>
+        <div class="container grid grid--2-cols grid1 ">
+          <div class="pjct-image">
+            <img class="pject-image-set" src="image\image1.png" alt="image1" />
+          </div>
+          <div class="pjct-image">
+            <img class="pject-image-set" src="image\image2.png" alt="image2" />
+          </div>
+          <div class="pjct-image">
+            <img class="pject-image-set" src="image\image3.png" alt="image3" />
+          </div>
+          <div class="pjct-image">
+            <img class="pject-image-set" src="image\image4.png" alt="image4" />
+          </div>
+          <div class="pjct-image">
+            <img class="pject-image-set" src="image\image5.png" alt="image5" />
+          </div>
+          <div class="pjct-image">
+            <img class="pject-image-set" src="image\image6.png" alt="image6" />
+          </div>
+          <div class="pjct-image">
+            <img class="pject-image-set" src="image\image7.png" alt="image7" />
+          </div>
+          <div class="pjct-image">
+            <img class="pject-image-set" src="image\image8.png" alt="image8" />
+          </div>
+          <div class="pjct-image">
+            <img class="pject-image-set" src="image\image9.png" alt="image9" />
+          </div>
+          <div class="pjct-image">
+            <img class="pject-image-set" src="image\image10.png" alt="image10" />
+          </div>
+          <div class="pjct-image">
+            <img class="pject-image-set" src="image\image11.png" alt="image11" />
+          </div>
+          <div class="pjct-image">
+            <img class="pject-image-set" src="image\image12.png" alt="image12" />
+          </div>
+          <div class="pjct-image">
+            <img class="pject-image-set" src="image\image13.png" alt="image13" />
+          </div>
+          <div class="pjct-image">
+            <img class="pject-image-set" src="image\image14.png" alt="image14" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="form" id="cta">
+      <div class="form-section grid">
+        <div class="form-sec  form-arr">
+          <form class="cta-form" action="mailto:ahwesome.r@gmail.com" method="post" enctype="text/plain">
+            <div class="cta-arr">
+              <div class="cta-left">
+                <div>
+                  <label for="full-name">Full Name</label>
+                    <input
+                    name="Name"
+                      id="full-name"
+                      type="text"
+                      placeholder="Enter Your Name"
+                      required/>
+                </div>
+
+                <div class="form-mail">
+                    <label for="email">Email Address</label>
+                    <input
+                      id="email"
+                      type="email"
+                      name="Email"
+                      placeholder="me@example.com"
+                      required
+                    />
+                </div>
+              </div>
+                <div class="cta-right">
+                  <div>
+                    <label for="select-where">Message</label>
+                    <textarea id="message" name="User Message" style="height: 154px; width: 311px;">Enter Your Message here...</textarea>
+                   
+                  </div>
+                </div>
+              </div>
+              <div class="btn--form-align submit">
+                <button class="btn btn-text">Submit</button>
+                
+              </div>
+          </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-section ">
+        <div class="container footer-sec">
+          <p class="footer-text">  copyright <span class="year">2022</span> ©  by Revathi. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
